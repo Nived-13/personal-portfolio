@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe's Portfolio</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('https://www.pexels.com/photo/white-and-brown-wooden-board-1103970/') no-repeat center center fixed;
+            background-size: cover;
+            color: #333;
+        }
+
+        header {
+            background-color: rgba(255, 99, 71, 0.9); /* Vibrant tomato color with transparency */
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        #welcome-section {
+            padding: 100px 20px;
+            text-align: center;
+            background-color: rgba(255, 235, 205, 0.8); /* Light background with transparency */
+        }
+
+        #welcome-section h1 {
+            font-size: 3em;
+            color: #ff6347;
+        }
+
+        section {
+            padding: 50px 20px;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.8); /* White background with transparency */
+            margin: 20px;
+            border-radius: 10px;
+        }
+
+        section h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #ff6347;
+        }
+
+        section p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+
+        section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        .project-tile {
+            background-color: rgba(255, 255, 255, 0.9); /* White background with transparency */
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .project-tile h3 {
+            color: #ff6347;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+
+            #welcome-section h1 {
+                font-size: 2.5em;
+            }
+
+            section h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header id="navbar">
+        <h1>John Doe</h1>
+        <nav>
+            <ul>
+                <li><a href="#welcome-section">Welcome</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="welcome-section">
+        <h1>Welcome to My Portfolio</h1>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm John Doe, a highly successful computer programmer with a passion for developing innovative programs that expedite the efficiency and effectiveness of organizational success. With over a decade of experience in the tech industry, I have honed my skills in various programming languages and frameworks.</p>
+        <img src="https://via.placeholder.com/150" alt="John Doe">
+    </section>
+
+    <section id="projects">
+        <h2>My Work</h2>
+        <div class="project-tile">
+            <h3>Project Title</h3>
+            <p>Brief description of the project. Mention the technologies used and your role.</p>
+            <a href="https://example.com" target="_blank" id="profile-link">View Project</a>
+            <img src="https://via.placeholder.com/300" alt="Project Image">
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out to me for any collaboration or opportunities.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 John Doe. All rights reserved.</p>
+    </footer>
+</body>
+</html>
